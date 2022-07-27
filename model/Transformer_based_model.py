@@ -40,7 +40,7 @@ class Transformer(nn.Module):
 
         return x
 
-
+# 기존 방식처럼 sin cos을 이용하여 Postional Encoding을 해주는 방식
 class PositionalEncoding(nn.Module):
 
     def __init__(self, d_model, vocab_size):
