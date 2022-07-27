@@ -11,4 +11,6 @@ pytorch에 있는 Transformer Layer 실습
 * attn_heads: 4
 * epoch: 100
 * batch_size: 32
-* hidden_size = 64
+* hidden_size: 64
+* max_len: 200
+* learning_rate: 0.001
