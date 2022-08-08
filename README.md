@@ -1,5 +1,5 @@
 # Binary classification of IMDB data using Transformer model
-pytorch에 있는 Transformer Layer 실습
+pytorch에 있는 Transformer Layer 연습
 
 ## setting
 * torch == 1.12.0+cu116 
