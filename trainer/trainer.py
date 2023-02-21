@@ -44,6 +44,7 @@ class Trainer:
 
             loss = self.criterion(outputs, data["label"])
             loss.backward()
+            self.optim.step()
 
             # calculate accuracy
             pred = torch.argmax(outputs, 1)
